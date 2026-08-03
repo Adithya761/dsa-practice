@@ -1,23 +1,20 @@
 class Solution {
 public:
-    int solve(vector<int>& nums,int l,int r){
+    int solve(vector<int>& nums,int l,int r,bool turn){
         if(l > r) return 0;
 
-        if(l == r){
-            return nums[l];
+        if(!turn){
+            return min(solve(nums,l + 1,r,!turn),solve(nums,l,r -1,!turn));
         }
 
-        int le = nums[l] - solve(nums, l + 1,r);
-        int ri = nums[r] - solve(nums,l ,r -1);
-
-        return max(le,ri);
+        return max(nums[l] + solve(nums,l + 1,r,!turn) , nums[r] + solve(nums,l,r -1,!turn));
     }
     bool predictTheWinner(vector<int>& nums) {
         int s = accumulate(nums.begin(),nums.end(),0);
         int n = nums.size();
-        int p1 = solve(nums,0,n-1);
+        int p1 = solve(nums,0,n-1,true);
         int p2 = s - p1;
-        return p1 >= 0;
+        return p1 >= p2;
     }
 };
 
