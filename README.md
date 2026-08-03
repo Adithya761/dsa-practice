@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0460-lfu-cache](https://github.com/Adithya761/dsa-practice/tree/master/0460-lfu-cache) |
 | [2074-reverse-nodes-in-even-length-groups](https://github.com/Adithya761/dsa-practice/tree/master/2074-reverse-nodes-in-even-length-groups) |
 ## Array
 |  |
@@ -62,4 +63,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1686-stone-game-vi](https://github.com/Adithya761/dsa-practice/tree/master/1686-stone-game-vi) |
+## Hash Table
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/Adithya761/dsa-practice/tree/master/0460-lfu-cache) |
+## Design
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/Adithya761/dsa-practice/tree/master/0460-lfu-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/Adithya761/dsa-practice/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
